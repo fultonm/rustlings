@@ -28,8 +28,13 @@ impl Package {
         self.sender_country != self.recipient_country
     }
 
+<<<<<<< HEAD
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
         self.weight_in_grams * cents_per_gram
+=======
+    fn get_fees(&self, cents_per_gram: i32) -> ??? {
+        // Something goes here...
+>>>>>>> 123e6426d11e01aab25454fd6e523b4390636976
     }
 }
 
